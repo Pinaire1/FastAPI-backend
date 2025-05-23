@@ -22,7 +22,7 @@ pip install -r requirements.txt
 To run the development server:
 
 ```bash
-uvicorn api:app --reload
+uvicorn main:app --reload
 ```
 
 The server will be available at `http://localhost:8000`
